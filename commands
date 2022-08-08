@@ -1,0 +1,69 @@
+git init:
+it is used to create empty repo inside a folder structure.
+
+
+Staging environment=>
+git add .=>to push all your files to staging environment 
+git add index.html =>to push one file at a time.
+
+
+commit environment=>
+git commit -m "Commit message"
+
+git and github life saviour for many developers
+
+
+
+1.create a new repository
+new button by providing repo name with other details
+2.
+
+
+git config --global user.name "Sam Smith"
+git config --global user.email sam@example.com
+
+we are telling github that i m the owner of this account& use this
+credential to push all the changes globally
+
+3.creta git init command for initial repo 
+4.Adding of files
+git add filename 
+git add *
+(stage or stash)
+
+5.
+git commit -m "added this functionality"
+(commit environment)
+
+6.
+set the branch 
+git branch branchname 
+
+7.
+set the remote connect
+
+git remote add origin urlofgithub 
+
+if you get fatal error:
+git remote rm origin 
+
+8.
+git push -u origin main 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
